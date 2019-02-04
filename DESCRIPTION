@@ -1,0 +1,16 @@
+Package: bcds
+Title: interface bioc patterns to dockstore patterns
+Description: Interface bioc patterns to dockstore patterns.
+Version: 0.0.1
+Author: Vince Carey
+Suggests: knitr
+Depends: R (>= 3.6.0)
+Imports: VariantAnnotation, ldblock, shiny, TFutils, GSEABase
+Maintainer: VJ Carey <stvjc@channing.harvard.edu>
+License: Artistic-2.0
+LazyLoad: yes
+LazyData: yes
+biocViews: variants
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
+Encoding: UTF-8
